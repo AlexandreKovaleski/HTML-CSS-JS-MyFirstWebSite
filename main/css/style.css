@@ -532,22 +532,20 @@ button {
 
 .software .titlepage p {
      color: #fff;
-     font-size: 17px;
+     font-size: 18px;
      line-height: 35px;
      font-weight: 400;
      margin-top: 30px;
-     border: #fff solid 1px;
      padding: 40px 40px;
 }
 
 .software .read_more {
-     margin-top: 50px;
+     margin-top: 20px;
 }
 
 .software .read_more:hover {
      background-color: #fcc10e;
 }
-
 
 /** end software section **/
 
@@ -740,103 +738,6 @@ ul.location_form li a {
 
 
 /** end contact section **/
-
-
-/** testimonial section **/
-
-.testimonial {
-     padding: 90px 0 70px 0;
-}
-
-.testimonial .titlepage {
-     text-align: center;
-     padding-bottom: 60px;
-}
-
-.testimonial .titlepage p {
-     color: #2a2a2c;
-     font-size: 17px;
-     line-height: 29px;
-     padding-top: 10px;
-}
-
-.testimonial_box h3 {
-     color: #2a2a2c;
-     font-size: 17px;
-     line-height: 24px;
-     margin-top: -8px;
-     font-weight: 600;
-     transform: skew(20deg);
-     float: left;
-     padding-left: 44px;
-}
-
-.testimonial_box p {
-     color: #2a2a2c;
-     font-size: 17px;
-     line-height: 32px;
-     transform: skew(20deg);
-     padding: 11px 43px;
-     display: inline-block;
-     font-style: italic;
-     font-weight: 400;
-}
-
-.testimonial_Carousel .carousel-caption {
-     position: inherit;
-     padding: 0;
-}
-
-.testimonial_box {
-     border: #a19f9e solid 1px;
-     padding: 40px 0px 40px 0px;
-     float: left;
-     text-align: center;
-     transform: skew(-20deg);
-     margin: 120px 63px 27px 74px;
-     box-shadow: 0px 0px 46px rgba(3, 3, 3, 0.13);
-}
-
-.blu {
-     color: #37139a;
-     text-transform: initial;
-     float: left;
-}
-
-.testimonial_box figure {
-     margin: 0;
-     float: left;
-     margin-top: -160px;
-     margin-left: -22px;
-     transform: skew(20deg);
-}
-
-.testimonial_box i img {
-     transform: skew(20deg);
-}
-
-#myCarousel .carousel-indicators {
-     bottom: -70px;
-}
-
-#myCarousel .carousel-indicators li {
-     width: 45px;
-     height: 12px;
-     border-radius: 20px;
-     background: #37139a;
-}
-
-#myCarousel .carousel-indicators .active {
-     background: #000000;
-}
-
-#myCarousel .carousel-control-prev,
-#myCarousel .carousel-control-next {
-     display: none;
-}
-
-
-/** end testimonial section **/
 
 
 /** footer **/
