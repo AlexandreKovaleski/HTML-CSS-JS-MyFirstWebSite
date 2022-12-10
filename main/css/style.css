@@ -321,11 +321,12 @@ button {
 /** banner section **/
 
 .banner_main {
-     background: url(../images/banner.jpg);
+     background: url(../images/banner.png);
      padding: 310px 0px 0px 0px;
      background-size: 100% 100%;
      background-repeat: no-repeat;
      min-height: 914px;
+     opacity: 0.75;
 }
 
 .text-bg {
@@ -334,22 +335,23 @@ button {
 
 .text-bg h1 {
      color: #fff;
-     font-size: 89px;
-     line-height: 91px;
+     font-size: 70px;
+     line-height: 80px;
      padding-bottom: 45px;
      font-weight: bold;
      text-transform: uppercase;
-     letter-spacing: 85px;
+     letter-spacing: 60px;
      text-align: center;
 }
 
 .text-bg span {
      color: #fff;
      font-weight: bold;
-     font-size: 56px;
+     font-size: 45px;
      line-height: 50px;
      text-transform: uppercase;
-     letter-spacing: 90px;
+     letter-spacing: 60px;
+     text-align: center;
 }
 
 .text-bg ul.social_team {
