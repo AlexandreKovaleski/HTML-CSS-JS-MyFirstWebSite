@@ -462,7 +462,7 @@ button {
 }
 
 .about .about_img {
-     margin-left: -76px;
+     margin-left: 0px;
 }
 
 .about_right {
@@ -486,10 +486,9 @@ button {
 }
 
 .about .titlepage p {
-     border: #000 solid 1px;
-     padding: 30px 20px;
+     padding: 30px;
      color: #2a2a2c;
-     font-size: 17px;
+     font-size: 18px;
      line-height: 32px;
      font-weight: 400;
      margin-top: 20px;
@@ -551,104 +550,6 @@ button {
 
 
 /** end software section **/
-
-
-/** We Do section **/
-
-.we_do {
-     background-color: #fff;
-     padding-top: 90px;
-}
-
-.we_do .titlepage {
-     text-align: center;
-     padding-bottom: 60px;
-}
-
-.we_do .titlepage p {
-     font-size: 17px;
-     line-height: 30px;
-     font-weight: 400;
-     padding-top: 10px;
-     color: #070101;
-}
-
-.we_do .we_box {
-     padding: 30px 30px 60px 30px;
-     text-align: center;
-     border: #37139a solid 1px;
-     border-radius: 10px;
-     transition: ease-in all 0.5s;
-     margin-bottom: 30px;
-     height: 490px;
-}
-
-.we_do .we_box span {
-     font-weight: bold;
-     font-size: 30px;
-     color: #000000;
-     border: #37139a solid 2px;
-     width: 65px;
-     height: 65px;
-     display: block;
-     margin: 0 auto;
-     line-height: 67px;
-     border-radius: 44px;
-     background-color: #fff;
-     transition: ease-in all 0.5s;
-}
-
-.we_do .we_box h3 {
-     padding: 30px 0px 20px 0px;
-     color: #070101;
-     font-size: 25px;
-     line-height: 30px;
-     font-weight: bold;
-     transition: ease-in all 0.5s;
-}
-
-.we_do .we_box p {
-     font-size: 17px;
-     color: #010103;
-     line-height: 32px;
-     transition: ease-in all 0.5s;
-}
-
-#hover_color:hover.we_box {
-     background-color: #37139a;
-     transition: ease-in all 0.5s;
-}
-
-#hover_color:hover.we_box span {
-     color: #37139a;
-     transition: ease-in all 0.5s;
-}
-
-#hover_color:hover.we_box h3 {
-     color: #fff;
-     transition: ease-in all 0.5s;
-}
-
-#hover_color:hover.we_box p {
-     color: #fff;
-     transition: ease-in all 0.5s;
-}
-
-.we_do .read_more {
-     margin-top: 40px !important;
-     margin: 0 auto;
-     display: block;
-     background-color: #070101;
-     color: #fff;
-}
-
-.we_do .read_more:hover {
-     background-color: #fcc10e;
-}
-
-
-/** end We Do section **/
-
 
 /** Our  team section **/
 
