@@ -157,13 +157,20 @@
          <div class="container-fluid">
             <div class="row d_flex">
                <div class="col-md-6">
-                  <div class="titlepage">
+                  <div class="titlepage" id="paragrafo">
                      <h2>SPA (Single-Page Application)</h2>
                      <p>Um SPA é uma aplicação web que roda em uma única página, se assemelhando a um aplicativo desktop ou um mobile.
                         A aplicação SPA pode ser construída de diversas formas, a mais comum é ser auxiliado por um framework Javascript como Angular ou Vue.js,
                         ambos possuem sistemas de rotas e clientes HTTP para fazer requisições a recursos externos (uma API, por exemplo).
                         <br> Para ver em funcionamento, basta clicar no botão abaixo: </p>
-                     <a class="read_more" href="#">Click aqui</a>
+                        <div class="read_more">
+                           <button onclick="funcao()">Clique Aqui</button>
+                        </div>
+                     <script>
+                        function funcao() {
+                           document.getElementById("paragrafo").innerHTML = "Texto alterado com sucesso"
+                        }
+                     </script>
                   </div>
                </div>
                <div class="col-md-6 padding_right2">
@@ -182,8 +189,6 @@
                <div class="col-md-12">
                   <div class="titlepage">
                      <h2>Desenvolverdor</h2>
-                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore 
-                     </p>
                   </div>
                </div>
             </div>
